@@ -48,7 +48,6 @@ int main() {
         }
     }
     so_doc_nhat(a, b, matrix, du_phong);
-    int doc_nhat[d];
     if(d == 0) {
         printf("Loi! Khong co so doc nhat, Vui long nhap lai:\n");
         goto p;
@@ -56,6 +55,7 @@ int main() {
     if(d == 1) {
         printf("Chi co mot so doc nhat nen GTLN, GTNN se bang nhau");
     }
+    int doc_nhat[d];
     for(int o = 0; o < d; o++) {
         doc_nhat[o] = du_phong[o];
     }
