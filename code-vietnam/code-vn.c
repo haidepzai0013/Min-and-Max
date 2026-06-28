@@ -17,7 +17,6 @@ int main() {
         scanf("%d", &b);
     }
     int matrix[a][b];
-    int du_phong[a * b];
     for(m = 0; m < a; m++) {
         printf("Nhap gia tri tai hang %d: \n", m);
         for(int n = 0; n < b; n++) {
